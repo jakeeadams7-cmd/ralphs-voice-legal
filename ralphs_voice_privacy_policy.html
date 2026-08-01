@@ -1,98 +1,82 @@
-# Ralphs_Voice — Privacy Policy
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ralph's Voice Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.55; background: Canvas; color: CanvasText; }
+    main { max-width: 860px; margin: 0 auto; padding: 40px 24px 64px; }
+    h1 { margin: 0 0 6px; font-size: 2rem; }
+    h2 { margin-top: 34px; font-size: 1.3rem; }
+    h3 { margin-top: 22px; font-size: 1.05rem; }
+    p, li { max-width: 76ch; }
+    .summary { border-left: 4px solid #087f5b; padding: 8px 16px; background: color-mix(in srgb, #087f5b 8%, transparent); }
+    .meta { color: #5f6368; }
+    a { color: #0759b8; }
+    footer { margin-top: 42px; padding-top: 18px; border-top: 1px solid #c7cbd1; color: #5f6368; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta"><strong>Ralph's Voice</strong><br>Effective date: 1 August 2026<br>Data controller: Jake Adams, United Kingdom<br>Contact: <a href="mailto:j4cu8.a@gmail.com">j4cu8.a@gmail.com</a></p>
 
-**Effective date:** 7 September 2025  
-**Developer:** Jake Adams (United Kingdom)  
-**Contact:** [J4CU8.A@gmail.com](mailto:J4CU8.A@gmail.com)
+    <p>Ralph's Voice is an augmentative and alternative communication app for children, families, carers and people with additional communication needs. This policy explains what the app stores, when online features send information, and the choices available to carers.</p>
 
-Ralphs_Voice is a speech-assist app designed to help children communicate using configurable flashcards, optional parent-recorded audio, and simple learning pages.  
-We take privacy seriously — especially for children — and have built the app to work **without collecting personal data**.
+    <section class="summary" aria-labelledby="summary">
+      <h2 id="summary">At a glance</h2>
+      <ul>
+        <li>There are no advertising SDKs, analytics SDKs, user accounts or in-app purchases.</li>
+        <li>Most personalised content stays on the device.</li>
+        <li>Online Buddy and Piper speech features send only the text needed to provide that feature when they are used.</li>
+        <li>Technical crash reporting is off by default and can be switched on by a carer.</li>
+        <li>Manual backups are encrypted before they are shared or saved.</li>
+      </ul>
+    </section>
 
----
+    <h2>Information stored on the device</h2>
+    <p>Ralph's Voice stores personalised app content in its private app storage. This can include profile names, age or support details entered by a carer, card text, categories, custom images, selected pages, voice preferences, Buddy memory that a carer chooses to save, usage preferences, downloaded speech clips and Health page selections. This information is used so the app can personalise communication and work quickly offline.</p>
+    <p>Health page content is for communication support only. It is not a diagnostic, monitoring or medical advice service.</p>
 
-## Quick Summary
-- We don’t collect, share, or sell your personal data.  
-- All flashcards, images, and **optional** voice recordings are stored **locally on the device**.  
-- No ads. No analytics. No third-party SDKs.  
-- The microphone is used only when you choose to record audio for a flashcard.  
-- You can delete all content at any time in-app or by uninstalling the app.  
+    <h2>When information is sent online</h2>
 
----
+    <h3>Buddy</h3>
+    <p>When Buddy is used with an internet connection, the current conversation, recent messages in that conversation, and the limited context needed to make Buddy helpful are sent to <code>ai.j4cu8.uk</code>. That context can include the active profile age and any Buddy memory a carer has chosen to enable. The service forwards the request to a developer-operated Ollama model to generate a reply. Conversation content is processed to respond and is not intentionally saved as a chat history on the service.</p>
 
-## Information the App Uses
+    <h3>Speech</h3>
+    <p>When the Piper voice option is selected and a phrase is not already available locally, the phrase text and selected voice are sent to <code>ai.j4cu8.uk</code> so a developer-operated Piper service can generate audio. The resulting audio can then be cached on the device for faster repeat playback. Choosing a device voice or using prepared clips can reduce or avoid online speech requests.</p>
 
-### Content You Add (Optional)
-- **Voice recordings** you make for a flashcard (e.g., “apple.wav”).  
-  → Stored locally in the app’s private storage.  
-- **Custom images** you choose for a flashcard.  
-  → Stored locally in the app’s private storage.  
-- **Flashcard text and categories.**  
-  → Stored locally as JSON in the app’s private storage.  
+    <h3>Technical crash reports</h3>
+    <p>Technical crash reporting is optional and off by default. If a carer turns it on, the app may send a technical report after a crash. Reports are designed to include only the report identifier, time, app version, build, platform, source, exception information and stack trace. The crash reporting feature is designed not to include profiles, card content, Buddy messages, voice phrases, photos or device identifiers. Reports are stored on the developer-managed service for up to 90 days for troubleshooting, then removed automatically.</p>
 
-*None of the above is uploaded to us. Ralphs_Voice does not include an account system and does not transmit your data to a server.*
+    <h2>Service and infrastructure providers</h2>
+    <p>Online requests are protected in transit using HTTPS and pass through Cloudflare's network before reaching the developer-operated services. Cloudflare may process connection information such as IP address and technical request data to deliver and secure the connection under its own <a href="https://www.cloudflare.com/privacypolicy/">Privacy Policy</a>. Ralph's Voice does not sell personal information or use it for behavioural advertising.</p>
 
----
+    <h2>Backups</h2>
+    <p>A carer can create an encrypted Ralph's Voice backup. It is protected with the carer PIN before the app opens the device share sheet, where the carer chooses whether to save it locally or send it to a cloud-storage provider. That chosen provider's privacy policy then applies. Android system backup may also operate if it is enabled by the device owner; it is controlled by the Android device and the account selected by the owner.</p>
 
-### Device Permissions
-- **Microphone** – used only when you tap record to create your own audio for a flashcard.  
-- **Storage/Photos** – used only if you pick an image from your device for a flashcard.  
-- **Internet** – the app itself does not send data, but the OS may need basic access (e.g., for downloading text-to-speech voices or updates).  
+    <h2>Permissions</h2>
+    <p>The Android app requests internet and network-state access so online Buddy, online Piper speech, backups and updates can work. Selecting or sharing an image or backup uses Android's system picker or share sheet. The app does not request location, contacts, SMS, camera or microphone permission for its current Android release.</p>
 
----
+    <h2>Children and carers</h2>
+    <p>Ralph's Voice is designed to be used with parent, guardian or carer involvement where appropriate. Please avoid entering unnecessary identifying or sensitive information into Buddy conversations or phrases that will be spoken online. Carers can control profiles, Buddy memory, voice settings, crash reporting and backups from Settings.</p>
 
-### Automatically Collected Data
-- **None.** We do not use analytics SDKs or crash reporters that transmit data to us.  
+    <h2>Retention and deletion</h2>
+    <p>Personalised app data remains on the device until a carer deletes it, restores another backup over it, clears app storage or uninstalls the app. Downloaded speech clips can be cleared in Settings. Buddy conversation content and Piper phrase text are not intentionally retained on the online service after a response is provided. Optional crash reports are deleted automatically after up to 90 days.</p>
+    <p>Because there are no user accounts, anonymous technical reports may not be identifiable as belonging to a particular person. For help with a data request or deletion request, email <a href="mailto:j4cu8.a@gmail.com">j4cu8.a@gmail.com</a> with enough non-sensitive detail to identify the issue, such as the approximate report time and app version.</p>
 
----
+    <h2>Security</h2>
+    <p>The app uses Android private app storage for local content, protects manual backups with encryption, stores the carer PIN using the device's secure storage where available, and uses HTTPS for online services. No system can guarantee absolute security, so carers should also keep the device locked and updated.</p>
 
-## Children’s Privacy
-Ralphs_Voice is family-friendly and can be used by children with supervision.  
-We **do not knowingly collect personal data from children**. All data remains on the device controlled by a parent/guardian.  
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy when the app or its data handling changes. The effective date above will be updated when material changes are made.</p>
 
-If you believe a child has sent us personal information (e.g., by email), contact us and we will delete it immediately.  
+    <h2>Contact</h2>
+    <p>For privacy questions, data requests or concerns, contact Jake Adams at <a href="mailto:j4cu8.a@gmail.com">j4cu8.a@gmail.com</a>.</p>
 
-- In the **United States**, we aim to comply with **COPPA** by avoiding online collection from children under 13.  
-- In the **UK/EU**, we aim to comply with **UK GDPR/GDPR** and the ICO **Children’s Code** by processing data only locally and providing parental control features.  
-
----
-
-## How We Use Information
-- To speak words/phrases and play your optional recordings.  
-- To save your chosen flashcards, categories, and images locally so the app works as expected.  
-
----
-
-## Data Storage
-- All data is stored **locally on your device** in the app’s private storage.  
-- Data is removed automatically when you uninstall the app.  
-- We do not run servers for this app.  
-
----
-
-## Data Sharing & Selling
-- **We do not share, transfer, or sell data** to any third parties.  
-
----
-
-## Data Retention & Deletion
-- Your recordings, images, and flashcards remain on your device until you delete them in the app or uninstall the app.  
-
----
-
-## Security
-- App data is stored in the app’s **private storage area**.  
-- We encourage parents/guardians to secure their devices (e.g., screen lock, OS updates).  
-
----
-
-## Changes to This Policy
-If we make material changes (for example, adding optional cloud backup), we will update this policy and, where appropriate, notify you in-app and seek consent.  
-
----
-
-## Contact
-If you have any questions or requests, please email:  
-**[J4CU8.A@gmail.com](mailto:J4CU8.A@gmail.com)**
-
----
-
-*This plain-language policy is provided for transparency and convenience. It is not legal advice.*
+    <footer>This policy is written in plain language for transparency. It is not legal advice.</footer>
+  </main>
+</body>
+</html>
