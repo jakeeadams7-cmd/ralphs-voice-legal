@@ -1,17 +1,20 @@
-# Ralphs_Voice — Privacy Policy
+# Ralphs Voice Privacy Policy
 
-**Effective date:** 7 September 2025  
-**Developer:** Jake Adams (United Kingdom)  
-**Contact:** J4CU8.A@gmail.com  
+This repository hosts the official privacy policy for Ralphs Voice, an augmentative and alternative communication app.
 
-Ralphs_Voice is a speech-assist app designed to help children communicate using configurable flashcards, optional parent-recorded audio, and simple learning pages.
+## Current policy
 
-## Quick Summary
-- We don’t collect, share, or sell your personal data.  
-- All flashcards, images, and optional voice recordings are stored locally on the device.  
-- No ads. No analytics.  
-- Microphone only used when you record your own flashcard audio.  
-- You can delete content any time or by uninstalling the app.  
+Read the current policy: [Ralphs Voice Privacy Policy](https://j4cu8.github.io/ralphs-voice-legal/ralphs_voice_privacy_policy.html)
 
-## Full Privacy Policy
-➡️ [View the full Privacy Policy (GitHub Pages)](https://jakeeadams7-cmd.github.io/ralphs-voice-legal/)
+Effective date: 1 August 2026  
+Contact: [j4cu8.a@gmail.com](mailto:j4cu8.a@gmail.com)
+
+## At a glance
+
+- Most personalised content remains in the app's private device storage.
+- Buddy and Piper only send the text needed for an online response or speech request when those features are used.
+- Technical crash reporting is optional and off by default.
+- Manual Ralphs Voice backups are encrypted before a carer chooses where to save or share them.
+- There are no ads, analytics SDKs, user accounts, or in-app purchases.
+
+The linked policy is the authoritative, plain-language explanation of Ralphs Voice data handling.
